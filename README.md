@@ -27,3 +27,4 @@ Add following dependencies:
 - React components: create new folder "components" under "assets/" directory. Inside the component folder Home, Posts and Users components are implemented.
 - Start symfony at one terminal: symfony server:start
 - Watch webpack-encore another terminal: npm run watch
+- If there is CORS Error, install the [moesif](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=en-US)  CORS extension and Turn it ON.

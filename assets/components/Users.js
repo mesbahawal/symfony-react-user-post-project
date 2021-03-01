@@ -12,7 +12,7 @@ class Users extends Component {
     }
 
     getUsers() {
-        axios.get(`http://localhost:8000/api/users`).then(users => {
+        axios.get('http://localhost:8000/api/users').then(users => {
             this.setState({ users: users.data, loading: false})
         })
     }
@@ -25,7 +25,7 @@ class Users extends Component {
                     <div className="container">
                         <div className="row">
                             <h2 className="text-center"><span>List of users</span>Created by Mesbah <i
-                                className="fa fa-heart"></i> </h2>
+                                className="fa fa-envelope" aria-hidden="true"></i> </h2>
                         </div>
                         {loading ? (
                             <div className={'row text-center'}>

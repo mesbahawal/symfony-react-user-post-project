@@ -1,6 +1,6 @@
-.row-section{float:left; width:100%; background: #42275a;  /* fallback for old browsers */
+.row-section{float:left; width:100%; background: rgba(202, 202, 202, 0.27);  /* fallback for old browsers */
 }
-.row-section h2{float:left; width:100%; color:#fff; margin-bottom:30px; font-size: 14px;}
+.row-section h2{float:left; width:100%; color: #4a4a4a; margin-bottom:30px; font-size: 14px;}
 .row-section h2 span{font-family: 'Libre Baskerville', serif; display:block; font-size:45px; text-transform:none; margin-bottom:20px; margin-top:30px;font-weight:700;}
 .row-section h2 a{color:#d2abce;}
 .row-section .row-block{background:#fff; padding:20px; margin-bottom:50px;}
@@ -12,7 +12,7 @@
 .row-section .media .media-left img{width:75px;}
 .row-section .media .media-body p{padding: 0 15px; font-size:14px;}
 .row-section .media .media-body h4 {color: #6b456a; font-size: 18px; font-weight: 600; margin-bottom: 0; padding-left: 14px; margin-top:12px;}
-.btn-default{background:#6B456A; color:#fff; border-radius:30px; border:none; font-size:16px;}
+.btn-default{background: #4a4a4a; color:#fff; border-radius:30px; border:none; font-size:16px;}
 .fa-spin {
     margin: 0 auto;}
 body {
