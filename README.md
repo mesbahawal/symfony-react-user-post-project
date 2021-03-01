@@ -14,7 +14,7 @@ Simple website using symfony and react js
 
 followed by - 
 
-- $ npm install
+- $ npm install @symfony/webpack-encore --save-dev
 
 Add following dependencies:
 - $ npm add @babel/preset-react --dev
