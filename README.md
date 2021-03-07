@@ -30,9 +30,7 @@ Add following dependency for pagination:
 --
 - npm i react-paginate --save
 
-
 # Build and Run Application:
---
 - Encore will load ./assets/app.js as the entry point of the application and use it to manage any JavaScript related files.
 - React components: create new folder "components" under "assets/" directory. Inside the component folder Home, Posts and Users components are implemented.
 - Start symfony at one terminal: symfony server:start
