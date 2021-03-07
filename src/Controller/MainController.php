@@ -47,13 +47,19 @@ class MainController extends AbstractController
                 'id' => 4,
                 'name' => 'Deann Payne',
                 'description' => 'Symfony and React is very interesting combination. I like it.',
-                'imageURL' => 'https://randomuser.me/api/portraits/women/50.jpg'
+                'imageURL' => 'https://randomuser.me/api/portraits/women/51.jpg'
             ],
             [
                 'id' => 5,
                 'name' => 'Donald Perkins',
                 'description' => 'Symfony and React is very interesting combination. I like it. Happy learning',
                 'imageURL' => 'https://randomuser.me/api/portraits/men/89.jpg'
+            ],
+            [
+                'id' => 6,
+                'name' => 'Mesbah Awal',
+                'description' => 'Symfony and React is very interesting combination. I like it. Happy learning',
+                'imageURL' => 'https://randomuser.me/api/portraits/men/4.jpg'
             ]
         ];
 
