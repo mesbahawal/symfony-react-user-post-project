@@ -36,3 +36,11 @@ Add following dependency for pagination:
 - Start symfony at one terminal: symfony server:start
 - Watch webpack-encore another terminal: npm run watch
 - If there is CORS Error, install the [moesif](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=en-US)  CORS extension and Turn it ON.
+
+Authentication
+--
+- use postgres connection set at .env
+- make database migration using: $ symfony console doctrine:migration:migrate
+- load data using: $ symfony console doctrine:fixtures:load
+- create new user in the table
+- To encode password: $ symfony console security:encode-password. Copy the encoded password into user table
